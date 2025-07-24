@@ -1,0 +1,2 @@
+pause_count,longest_pause,pause_rate,pitch_jump_count,pitch_range,pitch_skewness,pitch_std,mfcc13_microstress,flux_spikes,energy_range,pitch_entropy,spectral_rolloff,prediction
+79,0.14,15.520628683693516,51,132.51442325463822,-1.720146661844959,76.64955570735765,33.808581035752255,127,0.37763238877607813,1.1577222135265846,5811.338716658463,Lie
