@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 
 
 # === CONFIGURATION ===
-AUDIO_PATH = "cleaning/cleaned_data/lie/lie15.wav"  # ← Update with your file path
+AUDIO_PATH = "cleaning/cleaned_data/lie/lie10.wav"  # ← Update with your file path
 SAMPLE_RATE = 16000
 N_MFCC = 13
 NFFT = 512
@@ -145,6 +145,6 @@ for i in range(mfcc.shape[1]):
 
 # === Step 9: Save to Excel ===
 df = pd.DataFrame(features)
-df.to_excel("fl15.xlsx", index=False)
-print("Feature extraction completed. Saved as 'fl15.xlsx'.")
+df.to_excel("fl10.xlsx", index=False)
+print("Feature extraction completed. Saved as 'fl10.xlsx'.")
 

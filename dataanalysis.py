@@ -106,8 +106,8 @@ refined_feature_names = [
 ]
 
 if __name__ == "__main__":
-    mfcc_file = "fl15.xlsx"
-    other_file = "l1l1offl15.xlsx"
+    mfcc_file = "fl10.xlsx"
+    other_file = "l1l1offl10.xlsx"
 
     features = extract_refined_features_from_excel(mfcc_file, other_file)
 

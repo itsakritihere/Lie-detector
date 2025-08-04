@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 
 # Path to your audio file
-file_path = "cleaning/cleaned_data/lie/lie15.wav"
+file_path = "cleaning/cleaned_data/lie/lie10.wav"
 output_name = "l1"
 
 # Frame and hop size for 10ms hop at 16kHz
@@ -64,7 +64,7 @@ def extract_framewise_features(file_path, output_name):
     df["Time (s)"] = times
 
     # Save
-    output_file = f"{output_name}l1offl15.xlsx"
+    output_file = f"{output_name}l1offl10.xlsx"
     df.to_excel(output_file, index=False)
     print(f"✅ Saved enhanced features to '{output_file}'")
 

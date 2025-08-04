@@ -72,6 +72,6 @@ def predict_truth_or_lie_from_features(features):
     truth_score = (score / total_weight) * 100
 
     # Lowered threshold to 48% for better truth capture
-    prediction = "Truth" if truth_score >= 48 else "Lie"
+    prediction = "Truth" if truth_score >= 46 else "Lie"
 
     return prediction, round(truth_score, 2)
